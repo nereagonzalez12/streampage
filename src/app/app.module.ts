@@ -9,6 +9,7 @@ import { CommandsComponent } from './pages/home/commands/commands.component';
 import { ExtensibleComponent } from './pages/home/extensible/extensible.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SidebarComponent } from './pages/home/sidebar/sidebar.component';
+import { StreamComponent } from './pages/home/stream/stream.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SidebarComponent } from './pages/home/sidebar/sidebar.component';
     SidebarComponent,
     ExtensibleComponent,
     CommandsComponent,
-    HomeComponent
+    HomeComponent,
+    StreamComponent
   ],
   imports: [
     BrowserModule,
