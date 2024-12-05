@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  height: 100vh;
+  color: var(--white-color);
+  background-color: var(--background-color);
+}
+
+::selection {
+  background: var(--light-purple);
+  color: var(--dark-color);
+}
+
+::-moz-selection {
+  background: var(--light-purple);
+  color: var(--dark-color);
+}
+
+.basics {
+  /* basic colors */
+  --background-color: #0e0e10;
+  --dark-color: #18181b;
+  --light-color: #29292e;
+  --white-color: #efeff1;
+
+  /* palette color */
+  --light-purple: #6f69c7;
+  --dark-purple: #363e62;
+
+  /* basic style */
+  font-family: "Lexend", sans-serif;
+
+  /* screen size */
+  --screen-heigh: 100vh;
+  --screen-with: 100vw;
+}
