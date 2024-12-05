@@ -1,0 +1,13 @@
+.sidebar {
+    background-color: var(--dark-color);
+    color: var(--white-color);
+}
+
+.link-page {
+    color: var(--white-color);
+
+}
+
+.link-page:hover {
+    background-color: var(--dark-color-2);
+}
