@@ -24,7 +24,8 @@ body {
   /* basic colors */
   --background-color: #0e0e10;
   --dark-color: #18181b;
-  --light-color: #29292e;
+  --dark-color-2: #29292e;
+  --light-color: #81818d;
   --white-color: #efeff1;
 
   /* palette color */

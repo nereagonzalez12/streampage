@@ -1,0 +1,8 @@
+footer {
+    color: var(--light-color);
+    background-color: var(--dark-color);
+}
+
+.purple {
+    color: var(--light-purple);
+}
