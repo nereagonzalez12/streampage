@@ -1,0 +1,16 @@
+.text p span {
+  color: var(--light-purple);
+}
+
+.text {
+  color: var(--white-color);
+}
+
+.text mark {
+  color: var(--white-color);
+  background-color: var(--light-purple);
+}
+
+.text p {
+  color: var(--light-color);
+}

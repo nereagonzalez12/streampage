@@ -1,0 +1,47 @@
+.sidebar {
+    background-color: var(--dark-color);
+    color: var(--white-color);
+}
+
+.link-page {
+    color: var(--white-color);
+
+}
+
+
+.link-page:hover {
+    background-color: var(--dark-color-2);
+}
+
+.twitch-icon {
+    color: var(--light-purple);
+}
+
+.space-line {
+    border-color: var(--light-color);
+}
+
+.yt-icon {
+    color: red;
+}
+
+.logo-section {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.dev {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    min-height: 15%;
+    color: var(--light-color);
+    margin-top: 35%;
+}
+
+.purple {
+    color: var(--light-purple);
+}
