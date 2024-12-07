@@ -1,8 +1,6 @@
 footer {
   color: var(--light-color);
   background-color: var(--dark-color-2);
-  display: flex;
-  justify-content: center;
 }
 
 .purple {
