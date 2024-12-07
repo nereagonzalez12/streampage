@@ -29,7 +29,7 @@
                 </a>
             </li>
             <li>
-                <a [routerLink]="['/commands']" class="link-page flex items-center p-2 rounded-lg group">
+                <a (click)="showCommandView()" class="link-page flex items-center p-2 rounded-lg group cursor-pointer">
                     <img src="assets/svg/bot.svg" class="w-5 h-5 transition duration-75">
                     <span class="ms-3">Comandos</span>
                 </a>
@@ -41,7 +41,8 @@
                 </a>
             </li>
             <li>
-                <a [routerLink]="['/extensible']" class="link-page flex items-center p-2 rounded-lg group">
+                <a (click)="showExtensibleView()"
+                    class="link-page flex items-center p-2 rounded-lg group cursor-pointer">
                     <img src="assets/svg/timer.svg" class="w-5 h-5 transition duration-75">
                     <span class="ms-3">Extensible</span>
                 </a>
@@ -96,7 +97,8 @@
 </aside>
 
 <div class="p-4 sm:ml-64 h-full">
-    <!-- <app-stream></app-stream> -->
-    <!-- <app-extensible></app-extensible> -->
-    <app-commands></app-commands>
+
+    <app-stream *ngIf="homeView"></app-stream>
+    <app-extensible *ngIf="extensibleView"></app-extensible>
+    <app-commands *ngIf="commandView"></app-commands>
 </div>
